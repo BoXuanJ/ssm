@@ -43,9 +43,9 @@
         <div class="ItemBlockBorder">
             <div class="ItemBlock">
 				<div class="ItemBlock2"">
-					<input style="margin-left: 508px;width:90px;height:30px;" type="button" value="创业团队" onclick="javascript:clickto1();>
+					<input style="margin-left: 508px;width:90px;height:30px;" type="button" value="创业团队" onclick="javascript:clickto1();">
 					<br></br>
-					<input style="margin-left: 508px;width:90px;height:30px;" type="button" value="创业企业" onclick="javascript:clickto2();>
+					<input style="margin-left: 508px;width:90px;height:30px;" type="button" value="创业企业" onclick="javascript:clickto2();">
 				</div>
             </div>
         </div>
