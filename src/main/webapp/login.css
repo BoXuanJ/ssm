@@ -1,0 +1,79 @@
+body {  
+    background-image: url("win.jpg");;  
+    background-size: 100%;  
+    background-repeat: no-repeat;  
+}
+#login_window{  
+    width: 400px;  
+    height: 380px;  
+    padding: 13px;  
+  
+    position: absolute;  
+    left: 50%;  
+    top: 50%;  
+    margin-left: -200px;  
+    margin-top: -200px;  
+  
+    background-color: rgba(255, 255, 255, .7);  
+  
+    border-radius: 10px;  
+    text-align: center;  
+}
+form p > * {  
+    display: inline-block;  
+    vertical-align: middle;  
+}
+.label_input {  
+    font-size: 15px;  
+    font-family: 宋体;  
+  
+    width: 65px;  
+    height: 28px;  
+    line-height: 28px;  
+    text-align: center;    
+}         
+#choice{
+	font-size: 14px;  
+    font-family: 宋体;  
+  
+    width: 100px;  
+    height: 25px;  
+    line-height: 25px;
+	
+	
+    -webkit-margin-end: 75px;
+  	
+}
+.unknown{
+	font-size: 14px;  
+    font-family: 宋体;  
+  
+    width: 100px;  
+    height: 25px;  
+    line-height: 25px;
+    -webkit-margin-end: 120px;	
+}
+.unknown2{
+	font-size: 14px;  
+    font-family: 宋体;  
+  
+    width: 100px;  
+    height: 25px;  
+    line-height: 25px;
+    -webkit-margin-end: 132px;	
+}
+.button{
+	font-size: 15px;  
+/*	background-color: #1ab394;
+    border-color: #1ab394;*/
+	width: 90px;  
+    height: 30px;  
+}
+#checkbox{
+	width: 50px;  
+    height: 25px;
+}
+.choice{
+	width: 100px;  
+    height: 25px;
+}

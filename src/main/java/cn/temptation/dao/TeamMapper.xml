@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.temptation.dao.TeamDao">
+    <select id="findByTeamid" parameterType="string" resultType="Team">
+        SELECT * FROM team WHERE team_id=#{team_id}
+    </select>
+    <insert id="addTeam" parameterType="team" useGeneratedKeys="true">
+    	insert into team (team_name,base_stock,
+    	register,register_address,start_money,legal,
+    	staff_num,type,legal_id,tele_num) values
+    	(
+    	#{team_name},#{base_stock},
+    	#{register},#{register_address},
+    	#{start_money},#{legal},
+    	#{staff_num},#{type},
+    	#{legal_id},#{tele_num}
+    	)
+    </insert>
+   <!-- <select id="findByTeamid" parameterType="string" resultType="java.util.Vector<Team>">
+        SELECT * FROM team
+    </select>-->
+</mapper>
